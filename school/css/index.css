@@ -1,0 +1,573 @@
+.active .bg11{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 800px;
+    background: url("../img/bg5-4.png") 50% 0 no-repeat;
+    animation: bounceInUp 2s;
+    opacity: 0.5;
+
+}
+.bg11{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 800px;
+    background: url("../img/bg5-4.png") 50% 0 no-repeat;
+    animation: bounceOutDown 2s;
+    opacity: 0.5;
+}
+.active .bg12{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 650px;
+    background: url("../img/bg3-4.png") 50% 0 no-repeat;
+    animation: bounceInUp 1s;
+    opacity:0.5;
+
+}
+.bg12{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 650px;
+    background: url("../img/bg3-4.png") 50% 0 no-repeat;
+    animation: bounceOutDown 1s;
+    opacity:0.5;
+
+}
+.active .bg13{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 650px;
+    background: url("../img/bg3-3.png") 50% 0 no-repeat;
+    animation: bounceInUp 1.5s;
+    opacity:0.5;
+
+}
+.bg13{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 650px;
+    background: url("../img/bg3-3.png") 50% 0 no-repeat;
+    animation: bounceOutDown 1.5s;
+    opacity:0.5;
+
+}
+.active .wz-box{
+    width: 900px;
+    height: 200px;
+    position: relative;
+    top: -200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    animation: zoomInDown 2s;
+
+
+}
+.wz-box{
+    width: 900px;
+    height: 200px;
+    position: relative;
+    top: -200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    animation: zoomOutDown 2s;
+
+
+}
+.wz-box h1 a{
+    font-size: 90px;
+    color: #FFB400;
+    text-decoration: none;
+    font-weight: normal;
+    font-family: "幼圆";
+    background: rgba(109, 131, 130, 0.5);
+}
+.wz-box h2{
+    font-size: 30px;
+    color: #f5f5f5;
+    font-weight: normal;
+    font-family: "幼圆";
+    background: rgba(109, 131, 130, 0.5);
+
+}
+h1,h2{
+    margin: 0;
+}
+.active .wz-p{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    width: 600px;
+    margin: 0 0 0 -300px;
+    font-size: 18px;
+    text-align:left;
+    color: #fff;
+    animation: fadeIn 3s;
+    padding: 20px;
+}
+.wz-p{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    width: 600px;
+    margin: 0 0 0 -300px;
+    font-size: 18px;
+    text-align:left;
+    color: #fff;
+    animation: fadeOut 3s;
+    padding: 20px;
+
+}
+.xl{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 900px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 99;
+    opacity: 0.7;
+
+}
+.xl img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    animation: fadeInDown 1.5s infinite;
+
+}
+
+.active .bg22{
+    position: absolute;
+    bottom: 0;
+    width: 162%;
+    height: 1000px;
+    background: url("../img/2968435104391828507.png") 50% 0 no-repeat;
+    animation: slideInRight 2s;
+
+}
+.bg22{
+    position: absolute;
+    bottom: 0;
+    width: 162%;
+    height: 1000px;
+    background: url("../img/2968435104391828507.png") 50% 0 no-repeat;
+    animation: slideOutRight 2s;
+
+}
+.active .bg21{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 350px;
+    background: url("../img/bg33.png") 50% 0 no-repeat;
+    animation: slideInLeft 2s;
+}
+.bg21{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 350px;
+    background: url("../img/bg33.png") 50% 0 no-repeat;
+    animation: slideOutLeft 2s;
+}
+.active .wz-box2{
+    width: 900px;
+    height: 200px;
+    position: relative;
+    top: -130px;
+    bottom: 0;
+    left: 30px;
+    right: 0;
+    margin: auto;
+    animation: slideInLeft 2s;
+    background: rgba(0, 0, 0, 0.5);
+
+
+}
+.wz-box2{
+    width: 900px;
+    height: 200px;
+    position: relative;
+    top: -130px;
+    bottom: 0;
+    left: 30px;
+    right: 0;
+    margin: auto;
+    animation: slideOutLeft 2s;
+    background: rgba(0, 0, 0, 0.5);
+
+
+}
+.wz-box2 h1 a{
+    font-size: 90px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: normal;
+    font-family: "幼圆";
+}
+.wz-box2 h2{
+    font-size: 30px;
+    color: #f5f5f5;
+    font-weight: normal;
+    font-family: "幼圆";
+}
+.active .wz-p2{
+    position: absolute;
+    left: 55%;
+    top: 50%;
+    width: 600px;
+    margin: 0 0 0 -300px;
+    font-size: 14px;
+    text-align:left;
+    color: #ffc002;
+    animation: slideInRight 3s;
+    border: 3px solid #fff;
+    padding:20px;
+}
+.wz-p2{
+    position: absolute;
+    left: 55%;
+    top: 50%;
+    width: 600px;
+    margin: 0 0 0 -300px;
+    font-size: 14px;
+    text-align:left;
+    color: #ffc002;
+    animation: slideOutRight 3s;
+    padding: 20px;
+    border: 3px solid #fff;
+
+}
+/*===============================*/
+.active .bg32{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 600px;
+    background: url("../img/bgmask.png") 50% 0 no-repeat;
+    animation: slideInUp 1s;
+
+}
+.bg32{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 600px;
+    background: url("../img/bgmask.png") 50% 0 no-repeat;
+    animation: slideOutDown 1s;
+
+}
+
+.active .bg33{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 950px;
+    background: url("../img/f9037fa003b4a96ca4de89101a9a60ae.png") 50% 0;
+    animation: flash 5s infinite;
+
+}
+.bg33{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 950px;
+    background: url("../img/f9037fa003b4a96ca4de89101a9a60ae.png") 50% 0;
+    animation: flash 5s infinite;
+
+}
+.active .wz-box3{
+    width: 900px;
+    height: 200px;
+    position: relative;
+    top: -150px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    animation: zoomInDown 3s;
+
+
+}
+.wz-box3{
+    width: 900px;
+    height: 200px;
+    position: relative;
+    top: -150px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    animation: zoomOutUp 3s;
+
+
+}
+.wz-box3 h1 a{
+    font-size: 72px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: normal;
+    font-family: "幼圆";
+    background: rgba(109, 131, 130, 0.5);
+
+}
+.wz-box3 h2{
+    font-size: 30px;
+    color: #ffc002;
+    font-weight: normal;
+    font-family: "幼圆";
+    background: rgba(109, 131, 130, 0.5);
+
+}
+.active .wz-p3{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 600px;
+    margin: 0 0 0 -300px;
+    font-size: 16px;
+    text-align:left;
+    color: #fff;
+    animation: zoomInUp 3s;
+    padding: 20px;
+    background: rgba(0,0,0, 0.3);
+
+}
+.wz-p3{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 600px;
+    margin: 0 0 0 -300px;
+    font-size: 16px;
+    text-align:left;
+    color: #fff;
+    animation: zoomOutDown 3s;
+    padding: 20px;
+    background: rgba(0,0,0, 0.3);
+
+}
+/*=================================*/
+.active .bg42{
+    position: absolute;
+    bottom: 0;
+    width: 91%;
+    height:360px;
+    background: url("../img/bg83.png") 50% 0 no-repeat;
+    animation: fadeInRightBig 2s;
+
+}
+.bg42{
+    position: absolute;
+    bottom: 0;
+    width: 91%;
+    height:360px;
+
+
+    background: url("../img/bg83.png") 50% 0 no-repeat;
+    /*animation: rollOut 1s;*/
+    animation: fadeOutLeftBig 2s;
+}
+.active .bg43{
+    position: absolute;
+    bottom: 0;
+    width: 62%;
+    height: 700px;
+    background: url("../img/bg82.png") 50% 0 no-repeat;
+    /*animation: rollIn 1s;*/
+    animation: fadeInRightBig 2s;
+
+}
+.bg43{
+    position: absolute;
+    bottom: 0;
+    width: 62%;
+    height: 700px;
+    background: url("../img/bg82.png") 50% 0 no-repeat;
+    animation: fadeOutLeftBig 2s;
+    /*animation: rollOut 1s;*/
+
+}
+.active .bg41{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 550px;
+    background: url("../img/bg84.png") 50% 0 no-repeat;
+    /*animation: rollIn 1s;*/
+    animation: fadeInRightBig 2s;
+}
+.bg41{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 550px;
+    background: url("../img/bg84.png") 50% 0 no-repeat;
+    animation: fadeOutLeftBig 2s;
+    /*animation: rollOut 1s;*/
+}
+.active .wz-box4{
+    width: 900px;
+    height: 200px;
+    position: relative;
+    top: -90px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    animation: rollIn 2s;
+
+
+}
+.wz-box4{
+    width: 900px;
+    height: 200px;
+    position: relative;
+    top: -90px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    animation: rollOut 2s;
+
+
+}
+.wz-box4 h1 a{
+    font-size: 55px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: normal;
+    font-family: "幼圆";
+}
+.wz-box4 h2{
+    font-size: 40px;
+    color: #FFB400;
+    font-weight: normal;
+    font-family: "宋体";
+}
+.active .wz-p4{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 600px;
+    margin: 0 0 0 -300px;
+    font-size: 14px;
+    text-align:left;
+    color: rgb(255, 227, 253);
+    animation: fadeIn 10s;
+}
+.wz-p4{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 600px;
+    margin: 0 0 0 -300px;
+    font-size: 14px;
+    text-align:left;
+    color: rgb(255, 227, 253);
+    animation: fadeOut 10s;
+}
+.active .bgkk{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 75%;
+    height: 55%;
+    border: 2px solid #FFFFFF;
+
+    /*background: url("../img/") 50% 0 no-repeat;*/
+    animation: zoomIn 2s;
+}
+.bgkk{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 75%;
+    height: 55%;
+    border: 2px solid #FFFFFF;
+
+    /*background: url("../img/") 50% 0 no-repeat;*/
+    animation: zoomOut 2s;
+}
+.active .bgkk1{
+    position: absolute;
+    top: 320px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    /*border: 2px solid #FFFFFF;*/
+    background: #FFB400;
+    color: #FFFFFF;
+    font-size:24px ;
+    line-height: 45px;
+    font-family: "幼圆";
+    /*background: url("../img/") 50% 0 no-repeat;*/
+    animation: zoomIn 2s;
+}
+.bgkk1{
+    position: absolute;
+    top: 320px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size:24px ;
+    line-height: 45px;
+    font-family: "幼圆";
+    /*border: 2px solid #FFFFFF;*/
+    background: #FFB400;
+    /*background: url("../img/") 50% 0 no-repeat;*/
+    animation: zoomOut 2s;
+}
+.active .bgkk2{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 80%;
+    height: 65%;
+    border: 2px solid #FFFFFF;
+    /*background: url("../img/") 50% 0 no-repeat;*/
+    animation: zoomIn 2s;
+}
+.bgkk2{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 80%;
+    height: 65%;
+    border: 2px solid #FFFFFF;
+    /*background: url("../img/") 50% 0 no-repeat;*/
+    animation: zoomOut 2s;
+}
