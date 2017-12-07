@@ -1,0 +1,282 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+main{
+    width:100%;
+    height:auto;
+}
+
+
+
+/* header start */
+header{
+    width: 100%;
+    height: 80px;
+    /*background: red;*/
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-left{
+    width: 180px;
+    height: 40px;
+    /*background: green;*/
+    margin-left: 8%;
+
+}
+.header-left >img{
+    display: block;
+    float: left;
+    margin-top: 5px;
+}
+.header-left >span{
+    font-size: 30px;
+    line-height: 40px;
+    float: left;
+}
+.header-left-span-1{
+    color: #E4012E;
+}
+.header-left-span-2{
+    color: #1A1F2C;
+}
+.header-right{
+    width: 650px;
+    height: 40px;
+    /*background: green;*/
+    margin-right: 8%;
+}
+.header-right >ul{
+    width: 100%;
+    height: 100%;
+
+}
+.header-right >ul >li{
+    width: auto;
+    height: auto;
+    float: left;
+    padding: 8px 18px;
+    box-sizing: border-box;
+    transition: background 0.5s;
+}
+.header-right >ul >li:hover{
+    background: #E4012E;
+    transition: background 0.5s;
+}
+.header-right >ul >li:hover >a{
+    color: #fff;
+}
+.header-right >ul >li:nth-child(9){
+    background: #E4012E;
+}
+.header-right >ul >li:nth-child(9) a{
+    color: #fff;
+}
+.header-right >ul >li >a,.header-right >ul >div{
+    font-size: 14px;
+    color: #384050;
+}
+.header-right >ul >div{
+    margin: 8px 2px;
+    float: left;
+    color: #D0D0D0;
+}
+/*   header end  */
+
+/*new start*/
+.new-main{
+    border-top:3px solid #DDDDDD;
+}
+.new{
+    width: 1160px;
+    height: 691px;
+    /*background: red;*/
+    margin:0 auto;
+    overflow: hidden;
+}
+.new >h3{
+    font-size: 36px;
+    color: #333333;
+    margin:50px auto 0;
+    text-align: center;
+}
+.new-line{
+    width: 150px;
+    height: 1px;
+    background: #000;
+    margin:30px auto 50px;
+}
+.new >ul{
+    width: 100%;
+    height: 495px;
+    background: white;
+
+}
+.new >ul >li{
+    height: 100%;
+    padding: 0 10px;
+
+}
+.new >ul >li >img{
+    display: block;
+    width: 100%;
+    height: 278px;
+}
+.new >ul >li >h5{
+    font-size: 20px;
+    color: #333333;
+    margin:20px auto 10px;
+    text-align: center;
+}
+.new >ul >li >p{
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+}
+.new >ul >li >div{
+    margin: 10px auto;
+    text-align: center;
+}
+.new >ul >li > div >a{
+    font-size: 20px;
+    color: #E4012E;
+}
+.new >ul >li >div >a:hover{
+    color: #333333;
+}
+/*new end*/
+/*project start*/
+.project-main{
+    background: #E1E2E4;
+}
+.project{
+    width: 1160px;
+    height: 1303px;
+    margin:50px auto;
+    overflow: hidden;
+}
+.project >h3{
+    font-size: 35px;
+    color: #333333;
+    text-align: center;
+    margin:50px auto 0;
+}
+.project-line{
+    width: 150px;
+    height: 1px;
+    background: #000;
+    margin:30px auto;
+}
+.project-img{
+    width: 100%;
+    height: 1074px;
+    /*background: pink;*/
+}
+.project-img >li{
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+.project-img >li >img{
+    display: block;
+    width: 100%;
+    height:100%;
+    transition: all 1s;
+}
+.project-img >li:hover .project-zhe{
+    display: block;
+}
+.project-img >li:hover img{
+    transform: scale(1.1,1.1);
+    transition: all 1s;
+}
+.project-zhe{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:10;
+    display: none;
+}
+.project-zhe >.jiantou{
+    font-size: 35px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 346px;
+    transform: rotate(45deg);
+}
+/*project end*/
+
+/*footer*/
+footer{
+    width: 100%;
+    height: 300px;
+    background: #1E283A;
+    overflow: hidden;
+}
+.footer{
+    width: 1160px;
+    height: 134px;
+    padding:0 auto;
+    margin-top: 80px;
+    /*background: red;*/
+}
+.footer-left,.footer-right{
+    width: 400px;
+    height: 100%;
+    /*background: green;*/
+    float: left;
+    color: #FFFFFF;
+}
+.footer-left{
+    margin-left:8%;
+}
+.footer-left >h4,.footer-right >h4{
+    width: 100%;
+    height: 24px;
+    margin-top: 20px;
+}
+.footer-left >h2{
+    width: 40%;
+    height: 30px;
+    float: left;
+    font-size: 30px;
+}
+.footer-left >p{
+    width: 60%;
+    height: 30px;
+    font-size: 14px;
+    float: left;
+    line-height: 50px;
+}
+.footer-left >ul{
+    width: 100%;
+    height: 30px;
+    margin-top: 50px;
+    color: #FFFFFF;
+}
+.footer-left >ul >li{
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+.footer-left >ul >li >a{
+    font-size: 25px;
+    color: #FFFFFF;
+}
+.footer-left >ul >li >a:hover{
+    color: #E4012E;
+}
+.footer-right >p{
+    font-size: 12px;
+    line-height: 20px;
+}
+/*footer*/

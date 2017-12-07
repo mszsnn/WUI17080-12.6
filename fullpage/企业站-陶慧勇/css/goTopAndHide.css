@@ -1,0 +1,95 @@
+/*  hide header start */
+.hide-head{
+    width: 100%;
+    height: 60px;
+    background: #FFFFFF;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom:3px solid #CCCCCC;
+    position: fixed;
+    top: -80px;
+    left: 0;
+    z-index: 999;
+    transition: top 1s;
+}
+.header-left{
+    width: 180px;
+    height: 40px;
+    /*background: green;*/
+    margin-left: 8%;
+
+}
+.header-left >img{
+    display: block;
+    float: left;
+    margin-top: 5px;
+}
+.header-left >span{
+    font-size: 30px;
+    line-height: 40px;
+    float: left;
+}
+.header-left-span-1{
+    color: #E4012E;
+}
+.header-left-span-2{
+    color: #1A1F2C;
+}
+.header-right{
+    width: 650px;
+    height: 40px;
+    /*background: green;*/
+    margin-right: 8%;
+}
+.header-right >ul{
+    width: 100%;
+    height: 100%;
+
+}
+.header-right >ul >li{
+    width: auto;
+    height: auto;
+    float: left;
+    padding: 8px 18px;
+    box-sizing: border-box;
+    transition: background 0.5s;
+}
+.header-right >ul >li:hover{
+    background: #E4012E;
+    transition: background 0.5s;
+}
+.header-right >ul >li:hover >a{
+    color: #fff;
+}
+.header-right >ul >li >a,.header-right >ul >div{
+    font-size: 14px;
+    color: #384050;
+}
+.header-right >ul >div{
+    margin: 8px 2px;
+    float: left;
+    color: #D0D0D0;
+}
+/*   hide header end  */
+
+/*回到顶部开始*/
+.go-top{
+    width: 50px;
+    height: 50px;
+    background: #AAAAAA;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 999;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.go-top >a{
+    font-size: 30px;
+    color: #000;
+    line-height: 50px;
+}
+/*回到顶部结束*/

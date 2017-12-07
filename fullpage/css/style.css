@@ -28,10 +28,21 @@ div.box{
 }
 .section{
     background-size: cover;
+    position: relative;
 }
-
+/*.position{
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin:auto;
+}*/
 .section1 h4{
-    transform: translateY(-150px);
+    /*transform: translateY(-150px);*/
+    transform: translateY(-85%);
     font-size: 50px;
     width:100%;
     text-align: center;
@@ -40,12 +51,12 @@ div.box{
     transition: all 1s;
 }
 .active h4{
-    transform: translateY(30px);
+    transform: translateY(25%);
     transition: all 1s;
 }
 
 .section1 h2{
-    transform: translateY(-100px);
+    transform: translateY(-80%);
     font-size: 40px;
     width:100%;
     text-align: center;
@@ -54,7 +65,7 @@ div.box{
     transition: all 1s;
 }
 .active h2{
-    transform: translateY(0px);
+    transform: translateY(0%);
     transition: all 1s;
 }
 .section1 p{
@@ -73,17 +84,17 @@ div.box{
 }
 div.section1box{
     width: 100%;
-    height: 150px;
+    height: 200px;
     opacity:0.9;
 }
 div.section1box ul{
-    width: 1000px;
+    width: 1200px;
     height: 100%;
     display: flex;
     margin:60px auto;
 }
 div.section1box ul li{
-    width: 30%;
+    width: 25%;
     margin-right: 90px;
     position: relative;
     list-style: none;
@@ -91,22 +102,25 @@ div.section1box ul li{
     transition: all 1s;
 }
 .active div.section1box ul li:first-child{
-    transform: translateX(0);
+    transform: translateX(0%);
 }
 .active div.section1box ul li:nth-child(2){
-    transform: translateY(0);
+    transform: translateY(0%);
 }
 .active div.section1box ul li:last-child{
-    transform: translateX(0);
+    transform: translateX(0%);
 }
 div.section1box ul li:first-child{
-   transform: translateX(-600px);
+   /*transform: translateX(-600px);*/
+   transform: translateX(-100%);
 }
 div.section1box ul li:nth-child(2){
-    transform: translateY(300px);
+    /*transform: translateY(300px);*/
+    transform: translateY(100%);
 }
 div.section1box ul li:last-child{
-    transform: translateX(600px);
+    /*transform: translateX(600px);*/
+    transform: translateX(100%);
 }
 
 div.section1box ul li img:hover{
@@ -125,7 +139,7 @@ div.section1box ul li img{
 div.section1box ul li .cover{
     width:80%;
     height: 80%;
-    background: #ffffff;
+    background: rgba(0,0,0,0.5);
     position: absolute;
     top: 0;
     left: 0;
@@ -140,6 +154,7 @@ div.section1box ul li .cover{
     margin-top: 30px;
     font-weight:bold;
     font-family: "宋体";
+    color: #ffecec;
 }
 .cover >span:last-child{
     display: block;
@@ -153,11 +168,14 @@ div.section1box ul li .cover{
     color: #ffffff;
     font-weight: normal;
     text-align: center;
-    transform: translateY(-600px);
+    /*transform: translateY(-600px);*/
+    transform: translateY(-100%);
     transition: all 1s;
+    font-size: 26px;
 }
 .active h3{
-    transform: translateY(100px);
+    /*transform: translateY(100px);*/
+    transform: translateY(250%);
 }
 .section2 ul{
     width:100%;
@@ -174,24 +192,25 @@ div.section1box ul li .cover{
     position: relative;
 }
 .section2 ul li:nth-child(1){
-    transform: translateY(400px);
+    transform: translateY(500px);
     transition: all 1s;
 }
 .section2 ul li:nth-child(2){
-    transform: translateY(520px);
+    transform: translateY(620px);
     transition: all 1s;
 }
 .section2 ul li:nth-child(3){
-    transform: translateY(640px);
+    transform: translateY(740px);
     transition: all 1s;
 }
 .section2 ul li:nth-child(4){
-    transform: translateY(760px);
+    transform: translateY(860px);
     transition: all 1s;
 }
 .active ul li:nth-child(1),.active ul li:nth-child(2),
 .active ul li:nth-child(3),.active ul li:nth-child(4){
-    transform: translateY(160px);
+    /*transform: translateY(160px);*/
+    transform: translateY(200%);
 }
 
 .section2 ul li span{
@@ -209,18 +228,21 @@ div.section1box ul li .cover{
     color: #ffffff;
     text-align: center;
     transition: all 1s;
-    transform: translateY(-180px);
+    /*transform: translateY(-180px);*/
+    transform: translateY(-80%);
 }
 .active h1{
-    transform: translateY(0px);
+    /*transform: translateY(0px);*/
+    transform: translateY(80%);
 }
 .section3 section{
     width: 200px;
     height: 1px;
     background: green;
-    margin: 20px auto;
+    margin: 120px auto 20px;
     transform: scale(0.2);
     transition: all 1s;
+
 }
 .active section{
     transform: scale(1);
@@ -262,7 +284,8 @@ div.section1box ul li .cover{
 .active ul li.li3:nth-child(1),.active ul li.li3:nth-child(2),
 .active ul li.li3:nth-child(3),.active ul li.li3:nth-child(4){
     transform: translateX(0);
-    transform: translateY(50px);
+    /*transform: translateY(50px);*/
+    transform: translateY(30%);
 }
 .section3 .cover{
     width:100%;
@@ -305,7 +328,8 @@ div.section1box ul li .cover{
     transition: all 1s;
 }
 .active .all{
-    transform: translateY(130px);
+    /*transform: translateY(130px);*/
+    transform: translateY(200%);
 }
 .section3 .all:hover{
     background: rgba(255,255,255,0.4);
@@ -321,7 +345,8 @@ div.section1box ul li .cover{
     transform: translateY(-180px);
 }
 .active section.ready{
-    transform: translateY(180px);
+    /*transform: translateY(280px);*/
+    transform: translateY(450%);
 }
 .section4 .go{
     width: 100px;
@@ -332,6 +357,7 @@ div.section1box ul li .cover{
     transform: translateY(1000px);
 }
 .active .go{
-    transform: translateY(350px);
+    /*transform: translateY(450px);*/
+    transform: translateY(600%);
     transition: all 1s;
 }
